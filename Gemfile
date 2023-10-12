@@ -79,3 +79,7 @@ gem "omniauth-rails_csrf_protection"
 gem 'omniauth', '~>2.1.1'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg'
+end
